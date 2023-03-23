@@ -27,4 +27,4 @@ df = pd.read_csv("automobile_data.csv", na_values={
 
 # print (df[["company", "price"]][df.price == df["price"].max()])
 # print(df[df.company == "toyota"])
-print(df.groupby("company")["company", "price"].max())
+print(df.groupby("company")["company", "price"].size())
