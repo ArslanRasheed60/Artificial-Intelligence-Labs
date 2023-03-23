@@ -1,0 +1,8 @@
+# created by virtualenv automatically
+venv/bin
+
+./venv
+venv/
+./.idea/
+.idea/
+
